@@ -33,6 +33,16 @@
   font-size: 20vw;
 }
 
+@media screen and (max-width : 900px){
+  .workTitle{
+    font-size: 34vw;
+  }
+}
+
+@media screen {
+  
+}
+
 .char{
   transform: translate(115px);
   transition: transform 0.5s;
