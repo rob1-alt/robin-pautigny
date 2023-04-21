@@ -1,0 +1,66 @@
+[  
+    {    
+        "id": 1,     
+        "title": "overcop",   
+        "background": "/air-jordan-13-bred-michael-jordan-finales-nba-1998-encheres-pic01" ,
+        "firstContent": "d",
+        "background" : "../img/test.png",
+        "twiceContent" : "azertyuiopqsdfghjklmwxcvbn",
+        "pictureFull" : "/tim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg",
+        "slug": "overcop"
+    },
+    {    
+        "id": 2,    
+         "title": "Myflexoffice",    
+         "content": "Contenu de l'article 2",
+         "slug": "Myflexoffice"
+    },
+    {    
+        "id": 3,    
+        "title": "g-speed",    
+        "content": "Contenu de l'article 3",
+        "slug": "g-speed"
+    },
+    {    
+        "id": 4,    
+        "title": "Lorem",    
+        "content": "Contenu de l'article 3",
+        "slug": "MFO"
+    },
+    {    
+        "id": 5,    
+        "title": "Ipsum",    
+        "content": "Contenu de l'article 3",
+        "slug": "MFO"
+    },
+    {    
+        "id": 6 ,    
+        "title": "Exodus",    
+        "content": "Contenu de l'article 3",
+        "slug": "MFO"
+    },
+    {    
+        "id": 7 ,    
+        "title": "humanous",    
+        "content": "Contenu de l'article 3",
+        "slug": "MFO"
+    },
+    {    
+        "id": 8 ,    
+        "title": "test, test",    
+        "content": "Contenu de l'article 3",
+        "slug": "MFO"
+    },
+    {    
+        "id": 9 ,    
+        "title": "test, test",    
+        "content": "Contenu de l'article 3",
+        "slug": "MFO"
+    },
+    {    
+        "id": 10 ,    
+        "title": "test, test",    
+        "content": "Contenu de l'article 3",
+        "slug": "MFO"
+    }
+]

@@ -1,0 +1,56 @@
+.logo{
+    position: fixed;
+    left: 40px;
+    top: 40px;
+    color: var(--text-color);
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+  }
+  
+  .menu{
+    position: fixed;
+    left: 40px;
+    bottom: 40px;
+  }
+  
+  .menuList{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: var(--text-color);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+
+  .middleNav{
+    color : black;
+    background: #D9D9D9;
+    border-radius: 60px;
+    font-size: 12px;
+    position: fixed;
+    bottom : 3px;
+    width: 12%;
+    padding: 18px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase ;
+  }
+
+
+  @media screen and (max-width : 900px) {
+    .menuList{
+      display: none;
+    }
+
+    .middleNav{
+      width: 50%;
+    }
+  }
