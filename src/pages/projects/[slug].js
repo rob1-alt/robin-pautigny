@@ -9,33 +9,37 @@ import { gsap } from 'gsap';
 import { SplitText } from '../../vendors/gsap/SplitText';
 
 
-gsap.registerPlugin(SplitText);
+// gsap.registerPlugin(SplitText);
 
 
 function Project() {
 const [project, setProject] = useState(null);
 const router = useRouter();
 const { slug } = router.query;
-
 const textRef = useRef(null);
-  const splitTextRef = useRef(null);
-  const projectRef = useRef(null);
+const splitTextRef = useRef(null);
+const projectRef = useRef(null);
+const [ setCount] = useState(0);
 
-  console.log(splitTextRef);
+
 
   useEffect(() => {
-    console.log('splitTextRef', splitTextRef.current)
-    if(!splitTextRef.current)return 
+    if(!splitTextRef.current) return
     const splitText = new SplitText(splitTextRef.current);
     gsap.set(splitText.chars, { opacity: 0, y: 100 });
     gsap.to(splitText.chars, {
-      duration: 1.5,
-      opacity: 1,
-      y: 0,
-      stagger: 0.05,
-      ease: 'power4.out',
+    lazy: true,
+    duration: 1.5,
+    opacity: 1,
+    y: 0,
+    stagger: 0.05,
+    ease: 'power3.out',
+    onComplete: () => {
+    }
     });
-  }, [splitTextRef.current]);
+    }, [project]);
+
+
 
 
 // fetch the data of the json file  
@@ -47,6 +51,7 @@ const textRef = useRef(null);
     fetchData();
   }, [slug, projectRef]);
   if (!project) return
+
 
   const ipadMockup1 = {
     backgroundImage: `url(${project.images.ipadMockup})`,
@@ -77,6 +82,7 @@ return (
     <Clock/>
     <div ref={textRef} className={styles.mainProject}>
       <h1 ref={splitTextRef}  className={styles.workTitle} id="myText">{project.title}</h1>
+      {/* <button onClick={() => setCount(count + 1)}>Répéter l'animation</button> */}
     </div>
     <div style={ipadMockup1} className={styles.firstMockup}>
     </div>
