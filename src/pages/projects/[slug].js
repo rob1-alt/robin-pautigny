@@ -71,8 +71,9 @@ const [ setCount] = useState(0);
   const grid4 = {
     backgroundImage: `url(${project.images.grid4})`,
   } 
-  const link = {
-    href :  `{project.content.links}`,
+
+  const handleClick = () => {
+    window.open(project.content.link, '_blank');
   };
 
 
@@ -96,7 +97,7 @@ return (
       </div>
       <p className={styles.contentDescription}>{project.content.description}</p>
       <div className={styles.links}>
-        <a href={link}>View live site</a>
+        <a onClick={handleClick} >View live site</a>
         <div className={styles.round}></div>
         <p>pas grand chose</p>
       </div>

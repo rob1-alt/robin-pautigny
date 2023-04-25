@@ -10,6 +10,7 @@
             "link" : "https://www.overcop.com/"
         },
         "images" : {
+            "thumbnail" : "/overcop/thumbnail.jpg",
             "ipadMockup" : "/overcop/test.png",
             "doubleIpadMockup" : "/overcop/ipad2mockup.png",
             "grid1" : "/overcop/grid-1.png",
@@ -27,17 +28,17 @@
         "pictureFull" : "/tim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg"
     },
     {      
-        "id" : 0,  
-        "slug": "overcop",
-        "title": "overcop",
+        "id" : 1,  
+        "slug": "flocs",
+        "title": "Flocs",
         "content" : {
-            "title" : "overcop",
-            "description" : "overcop is a sneakers webstore who care about have the low prices on the market ",
-            "content" : "overcop",
-            "link" : "https://www.overcop.com/"
+            "title" : "Flocs",
+            "description" : "No-code project for an ecommerce marketplace selling eco-friendly furniture. And that sells peer to peer. It is a dynamic site, which allows to create and sell products. ",
+            "content" : "flocs",
+            "link" : "https://flocs-design.bubbleapps.io/version-test/"
         },
         "images" : {
-            "ipadMockup" : "/overcop/test.png",
+            "ipadMockup" : "/flocs/ipadMockup1.png",
             "doubleIpadMockup" : "/overcop/ipad2mockup.png",
             "grid1" : "/overcop/gridItem1.png",
             "grid2" : "/overcop/gridItem2.png",
@@ -45,9 +46,9 @@
             "grid4" : "/overcop/gridItem4.png"
         },
         "tags" :{
-            "tag1" : "personal",
-            "tag2" : "business",
-            "tag3" : "shopify"
+            "tag1" : "ecommerce",
+            "tag2" : "school",
+            "tag3" : "bubble"
     }, 
 
         "twiceContent" : "azertyuiopqsdfghjklmwxcvbn",

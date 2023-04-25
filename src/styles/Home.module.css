@@ -62,7 +62,8 @@
 .card{
   background-color: aliceblue;
   background-size: cover;
-  height: 400px;
+  background-position: center;
+  height: 550px;
   border-radius: var(--border-radius);
   margin-bottom: 200px;
 }

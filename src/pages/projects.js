@@ -38,13 +38,12 @@ function ProjectsList() {
     stagger: 0.05,
     ease: 'power4.out',
     onComplete: () => {
-    }
-    });
-    }, []);
+          }
+        });
+  }, []);
+
   
-
   return (
-
     <div>
       <Head>
         <title>Projects</title>
@@ -58,9 +57,9 @@ function ProjectsList() {
       <h1 ref={splitTextRef} className={styles.workTitle} id="myText">MY WORK</h1>
     </div>
     <section >
-        <ul className={styles.listing} style={{backgroundImage: `url(${background})`}}>
+        <ul className={styles.listing}>
           {projects.map((project) => (
-            <div className={styles.card}>
+            <div className={styles.card}  style={{ backgroundImage: `url(${project.images.thumbnail})`}} >
             <li key={project.id}>
               <Link href={`/projects/${project.slug}`}>
                 <div className={styles.cardTitle}>{project.title}</div>
