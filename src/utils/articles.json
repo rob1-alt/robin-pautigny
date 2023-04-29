@@ -33,17 +33,18 @@
         "title": "Flocs",
         "content" : {
             "title" : "Flocs",
-            "description" : "No-code project for an ecommerce marketplace selling eco-friendly furniture. And that sells peer to peer. It is a dynamic site, which allows to create and sell products. ",
+            "description" : "No-code project created in 4 days for an ecommerce marketplace selling eco-friendly furniture. It is a dynamic site, which allows to create and sell products. ",
             "content" : "flocs",
             "link" : "https://flocs-design.bubbleapps.io/version-test/"
         },
         "images" : {
+            "thumbnail" : "/flocs/fauteuil-lounge.jpg",
             "ipadMockup" : "/flocs/ipadMockup1.png",
-            "doubleIpadMockup" : "/overcop/ipad2mockup.png",
-            "grid1" : "/overcop/gridItem1.png",
-            "grid2" : "/overcop/gridItem2.png",
-            "grid3" : "/overcop/gridItem3.png",
-            "grid4" : "/overcop/gridItem4.png"
+            "doubleIpadMockup" : "/flocs/Ipads.png",
+            "grid1" : "/flocs/grid.png",
+            "grid2" : "/flocs/grid-1.png",
+            "grid3" : "/flocs/grid-2.png",
+            "grid4" : "/flocs/grid-3.png"
         },
         "tags" :{
             "tag1" : "ecommerce",
@@ -56,17 +57,18 @@
     },
     {      
         "id" : 0,  
-        "slug": "overcop",
-        "title": "overcop",
+        "slug": "myflexoffice",
+        "title": "myflexoffice",
         "content" : {
-            "title" : "overcop",
+            "title" : "myflexoffice",
             "description" : "overcop is a sneakers webstore who care about have the low prices on the market ",
             "content" : "overcop",
-            "link" : "https://www.overcop.com/"
+            "link" : "https://www.myflexoffice.fr/"
         },
         "images" : {
-            "ipadMockup" : "/overcop/test.png",
-            "doubleIpadMockup" : "/overcop/ipad2mockup.png",
+            "thumbnail" : "/mfo/mfoFull.jpeg",
+            "ipadMockup" : "/mfo/IpadMockup.png",
+            "doubleIpadMockup" : "/mfo/ipads.png",
             "grid1" : "/overcop/gridItem1.png",
             "grid2" : "/overcop/gridItem2.png",
             "grid3" : "/overcop/gridItem3.png",
@@ -76,64 +78,6 @@
             "tag1" : "personal",
             "tag2" : "business",
             "tag3" : "shopify"
-    }, 
-
-        "twiceContent" : "azertyuiopqsdfghjklmwxcvbn",
-        "pictureFull" : "/tim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg"
-    },
-    {      
-        "id" : 0,  
-        "slug": "overcop",
-        "title": "overcop",
-        "content" : {
-            "title" : "overcop",
-            "description" : "overcop is a sneakers webstore who care about have the low prices on the market ",
-            "content" : "overcop",
-            "link" : "https://www.overcop.com/"
-        },
-        "images" : {
-            "ipadMockup" : "/overcop/test.png",
-            "doubleIpadMockup" : "/overcop/ipad2mockup.png",
-            "grid1" : "/overcop/gridItem1.png",
-            "grid2" : "/overcop/gridItem2.png",
-            "grid3" : "/overcop/gridItem3.png",
-            "grid4" : "/overcop/gridItem4.png"
-        },
-        "tags" :{
-            "tag1" : "personal",
-            "tag2" : "business",
-            "tag3" : "shopify"
-    }, 
-
-        "twiceContent" : "azertyuiopqsdfghjklmwxcvbn",
-        "pictureFull" : "/tim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg"
-    },
-    {      
-        "id" : 0,  
-        "slug": "overcop",
-        "title": "overcop",
-        "content" : {
-            "title" : "overcop",
-            "description" : "overcop is a sneakers webstore who care about have the low prices on the market ",
-            "content" : "overcop",
-            "link" : "https://www.overcop.com/"
-        },
-        "images" : {
-            "ipadMockup" : "/overcop/test.png",
-            "doubleIpadMockup" : "/overcop/ipad2mockup.png",
-            "grid1" : "/overcop/gridItem1.png",
-            "grid2" : "/overcop/gridItem2.png",
-            "grid3" : "/overcop/gridItem3.png",
-            "grid4" : "/overcop/gridItem4.png"
-        },
-        "tags" :{
-            "tag1" : "personal",
-            "tag2" : "business",
-            "tag3" : "shopify"
-    }, 
-
-        "twiceContent" : "azertyuiopqsdfghjklmwxcvbn",
-        "pictureFull" : "/tim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg"
     }
-    
+}    
 ]

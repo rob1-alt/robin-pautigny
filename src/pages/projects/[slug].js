@@ -97,7 +97,9 @@ return (
       </div>
       <p className={styles.contentDescription}>{project.content.description}</p>
       <div className={styles.links}>
-        <a onClick={handleClick} >View live site</a>
+        <div className={styles.liveSite}>
+          <a onClick={handleClick} >View live site</a>
+        </div>
         <div className={styles.round}></div>
         <p>pas grand chose</p>
       </div>
