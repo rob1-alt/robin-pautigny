@@ -19,9 +19,11 @@ export default function Home() {
         <ContextualMenu/>
         <Clock/>
 
-        <Link href="/projects">
+        <h1 className={styles.title}>ROBIN PAUTIGNY</h1>
+
+        {/* <Link href="/projects">
           <p>projets</p>
-        </Link>
+        </Link> */}
           
 
         {/* <h1 className={styles.title}>PORTFOLIO</h1> */}

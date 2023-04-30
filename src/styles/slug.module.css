@@ -12,6 +12,14 @@
     font-size: 20vw;
   }
 
+  @media screen and (max-width : 900px){
+    .workTitle{
+      font-size: 180px;
+    }
+  }
+    
+  
+
   .firstMockup{
     background-size: cover;
     background-position: center;

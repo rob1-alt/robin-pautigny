@@ -59,9 +59,9 @@ function ProjectsList() {
     <section >
         <ul className={styles.listing}>
           {projects.map((project) => (
-            <div className={styles.card}  style={{ backgroundImage: `url(${project.images.thumbnail})`}} >
+            <div className={styles.card} style={{ backgroundImage: `url(${project.images.thumbnail})`}} >
             <li key={project.id}>
-              <Link href={`/projects/${project.slug}`}>
+              <Link className={styles.link} href={`/projects/${project.slug}`}>
                 <div className={styles.cardTitle}>{project.title}</div>
               </Link>
             </li> 
