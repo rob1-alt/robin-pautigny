@@ -40,6 +40,24 @@ const [ setCount] = useState(0);
     }, [project]);
 
 
+    useEffect(() => {
+      const handleScroll = () => {
+        if (window.scrollY >= 200) {
+          gsap.to("#firstMockup", {
+            opacity: 1, // L'opacité finale de l'élément
+            duration: 1, // La durée de l'animation
+            ease: 'power1.out', // L'effet de transition
+          });
+        }
+      };
+    
+      window.addEventListener("scroll", handleScroll);
+    
+      return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+    
+
+
 
 
 // fetch the data of the json file  
@@ -51,6 +69,7 @@ const [ setCount] = useState(0);
     fetchData();
   }, [slug, projectRef]);
   if (!project) return
+
 
 
   const ipadMockup1 = {
@@ -76,6 +95,9 @@ const [ setCount] = useState(0);
     window.open(project.content.link, '_blank');
   };
 
+  console.log('%cSalut toi, tu cherches quoi ici ?', 'background: #222; color: #bada55')
+
+
 
 return (
   <div ref={projectRef}>
@@ -85,7 +107,7 @@ return (
       <h1 ref={splitTextRef}  className={styles.workTitle} id="myText">{project.title}</h1>
       {/* <button onClick={() => setCount(count + 1)}>Répéter l'animation</button> */}
     </div>
-    <div style={ipadMockup1} className={styles.firstMockup}>
+    <div style={ipadMockup1} id="firstMockup" className={styles.firstMockup}>
     </div>
     <div style={ipadMockup2} className={styles.firstMockup}>
     </div>

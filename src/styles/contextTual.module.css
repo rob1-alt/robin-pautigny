@@ -1,4 +1,10 @@
+.contextualMenu{
+  z-index: 9999;
+}
+
+
 .logo{
+  z-index: 9999;
     position: fixed;
     left: 40px;
     top: 40px;
@@ -8,12 +14,14 @@
   }
   
   .menu{
+    z-index: 9999;
     position: fixed;
     left: 40px;
     bottom: 40px;
   }
   
   .menuList{
+    z-index: 9999;
     font-family: 'Inter', sans-serif;
     font-weight: bold;
     color: var(--text-color);

@@ -1,3 +1,5 @@
+
+
 .title{
   font-family: "Thunder";
   font-size: 20vw;
@@ -72,19 +74,20 @@
  margin-top: -60px;
 }
 
- .cardTitle{
-  top: 0;
+.cardTitle{
+  margin-top: 500px;
+  margin-left: 10px;
   background-color: rgb(255, 255, 255);
-  color : black;
+  color : rgb(86, 86, 86);
   border-radius: 20px;
   padding: 10px;
   width: fit-content;
-  font-size: 1vw;
+  font-size: 0.6vw;
+  text-transform: uppercase;
 }
 
 .link{
  float: inline-start;
-
 }
 
 

@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 function ContextualMenu() {
     return (
-        <div>
+        <div className={styles.contextualMenu}>
             <div className={styles.logo}>
             <a href='/'>
                 <p>
