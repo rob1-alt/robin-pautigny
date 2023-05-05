@@ -8,6 +8,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { gsap } from 'gsap';
 import { SplitText } from '../vendors/gsap/SplitText';
+import Background from "@/components/noise";
 
 
 function ProjectsList() {
@@ -55,6 +56,8 @@ function ProjectsList() {
       <ContextualMenu/>
       <Clock/>
     <div ref={textRef} className={styles.mainProject}>
+    {/* <canvas id="background"></canvas>
+    <Background></Background> */}
       <h1 ref={splitTextRef} className={styles.workTitle} id="myText">MY WORK</h1>
     </div>
     <section >

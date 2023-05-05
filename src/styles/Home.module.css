@@ -82,9 +82,17 @@
   border-radius: 20px;
   padding: 10px;
   width: fit-content;
-  font-size: 0.6vw;
+  font-size: 0.8vw;
   text-transform: uppercase;
 }
+
+@media screen and (max-width : 900px){
+  .cardTitle{
+    font-size: 3vw;
+  }
+}
+  
+
 
 .link{
  float: inline-start;
