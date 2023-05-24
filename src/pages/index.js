@@ -4,6 +4,7 @@ import ContextualMenu from '../components/contextualMenu'
 import Clock from '../components/clock'
 import CustomCursor from '../components/cursor'
 import Link from 'next/link'
+import ProjectsListIndex from '@/components/projectListIndex'
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Clock/>
 
         <h1 className={styles.title}>TEST</h1>
+        <ProjectsListIndex/>
 
         {/* <Link href="/projects">
           <p>projets</p>
