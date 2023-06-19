@@ -20,8 +20,8 @@ export default function Home() {
         <ContextualMenu/>
         <Clock/>
 
-        <h1 className={styles.title}>TEST</h1>
-        <ProjectsListIndex/>
+        <h1 className={styles.title}>FOLIO 20/23</h1>
+        {/* <ProjectsListIndex/> */}
 
         {/* <Link href="/projects">
           <p>projets</p>

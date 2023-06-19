@@ -21,9 +21,15 @@ function ContextualMenu() {
                         <Link href='https://www.linkedin.com/in/robin-pautigny/'>
                             <li className={styles.menuItem}>IN</li>
                         </Link>
-                        <li className={styles.menuItem}>GIT</li>
-                        <li className={styles.menuItem}>IG</li>
-                        <li className={styles.menuItem}>MAIL</li>
+                        <Link href='https://github.com/rob1-alt'>
+                            <li className={styles.menuItem}>GIT</li>
+                        </Link>
+                        <Link href='https://twitter.com/Robin_pautigny'>
+                            <li className={styles.menuItem}>TWI</li>
+                        </Link>
+                        <Link href='mailto:rob1@digital-labs.dev'>
+                            <li className={styles.menuItem}>MAIL</li>
+                        </Link>
                     </div>
                 </ul>    
             </div>
