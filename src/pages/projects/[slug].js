@@ -123,7 +123,7 @@ return (
           <a onClick={handleClick} >View live site</a>
         </div>
         <div className={styles.round}></div>
-        <p>pas grand chose</p>
+        {/* <p>pas grand chose</p> */}
       </div>
     </div>
     <div className={styles.gridContainer}>
