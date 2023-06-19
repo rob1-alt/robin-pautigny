@@ -5,8 +5,23 @@ import Clock from '../components/clock'
 import CustomCursor from '../components/cursor'
 import Link from 'next/link'
 import ProjectsListIndex from '@/components/projectListIndex'
+import { useState, useEffect } from 'react'
+import ProjectDB from '../utils/articles.json';
+
 
 export default function Home() {
+  // Assuming you have your projects data here
+  const [projects, setProjects] = useState([]);
+
+  const background = ProjectDB.background
+
+  useEffect(() => {
+    async function fetchData() {
+      setProjects(ProjectDB);
+    }
+    fetchData();
+  }, []);
+
   return (
     <>
       <Head>
@@ -19,16 +34,8 @@ export default function Home() {
         <CustomCursor/>
         <ContextualMenu/>
         <Clock/>
-
         <h1 className={styles.title}>FOLIO 20/23</h1>
-        {/* <ProjectsListIndex/> */}
-
-        {/* <Link href="/projects">
-          <p>projets</p>
-        </Link> */}
-          
-
-        {/* <h1 className={styles.title}>PORTFOLIO</h1> */}
+        <ProjectsListIndex projects={projects} />
       </main>
     </>
   )
