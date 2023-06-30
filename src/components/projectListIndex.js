@@ -8,11 +8,14 @@ export default function ProjectsListIndex({ projects }) {
 
   return (
 <div>
-      <div className={styles.marqueeContainer}>
-        <div className={styles.marqueeContent}>
-          Texte défilant ici...
-        </div>
-      </div>
+    {/* <div className={styles.marquee}>
+      <p>PROJECTS • Projects </p>
+    </div> */}
+    <div className={styles.marquee}>
+  <div className={styles.track}>
+    <div className={styles.content}>&nbsp;PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS</div>
+  </div>
+</div>
     <div className={styles.projectsList}>
       {projects.map((project, index) => (
         <div
@@ -30,9 +33,6 @@ export default function ProjectsListIndex({ projects }) {
           </Link>
         </div>
       ))}
-    </div>
-    <div className={styles.marquee}>
-      <p>Ceci est un texte qui défile en boucle.</p>
     </div>
   </div>
   );
