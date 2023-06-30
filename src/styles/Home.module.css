@@ -17,6 +17,7 @@
   display: flex;
   justify-content: center;
   margin-top: 37vh;  
+  height: 70vh;
 }
 
 
@@ -118,3 +119,4 @@
 .playlist{
   border-radius: 12px;
 }
+

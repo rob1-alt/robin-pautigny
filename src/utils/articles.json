@@ -7,7 +7,8 @@
             "title" : "overcop",
             "description" : "overcop is a sneakers webstore who care about have the low prices on the market. We provide the best quality sneakers at a fair price for our amazing customers. ",
             "content" : "overcop",
-            "link" : "https://www.overcop.com/"
+            "link" : "https://www.overcop.com/",
+            "year" : "2023"
         },
         "images" : {
             "thumbnail" : "/overcop/thumbnail.jpg",
@@ -35,7 +36,8 @@
             "title" : "Flocs",
             "description" : "No-code project created in 4 days for an ecommerce marketplace selling eco-friendly furniture. It is a dynamic site, which allows to create and sell products. ",
             "content" : "flocs",
-            "link" : "https://flocs-design.bubbleapps.io/version-test/"
+            "link" : "https://flocs-design.bubbleapps.io/version-test/",
+            "year" : "2023"
         },
         "images" : {
             "thumbnail" : "/flocs/fauteuil-lounge.jpg",
@@ -63,7 +65,8 @@
             "title" : "myflexoffice",
             "description" : "MyFlexOffice needs a modern, professional website that showcases their services and products. We'll develop key features like a product catalog and booking system, ensuring user-friendly navigation and mobile-responsiveness. After testing, we'll launch the website, allowing for easy updates and maintenance with a content management system.",
             "content" : "overcop",
-            "link" : "https://www.myflexoffice.fr/"
+            "link" : "https://www.myflexoffice.fr/",
+            "year" : "2022"
         },
         "images" : {
             "thumbnail" : "/mfo/mfoFull.jpeg",
@@ -81,14 +84,44 @@
     }
 },
 {      
-    "id" : 0,  
+    "id" : 3,  
     "slug": "g-speed",
     "title": "g-speed",
     "content" : {
         "title" : "g-speed",
         "description" : "G-SPEED is a family garage that deals with vintage cars. We only sell exclusive cars in clinical condition. The owner wanted the site in record time, so I delivered it to him",
         "content" : "overcop",
-        "link" : "https://www.overcop.com/"
+        "link" : "https://www.overcop.com/",
+        "year" : "2023"
+    },
+    "images" : {
+        "thumbnail" : "/g-speed/DSC_0077.jpg",
+        "ipadMockup" : "/overcop/test.png",
+        "doubleIpadMockup" : "/overcop/ipad2mockup.png",
+        "grid1" : "/overcop/grid-1.png",
+        "grid2" : "/overcop/grid-2.png",
+        "grid3" : "/overcop/grid-3.png",
+        "grid4" : "/overcop/grid-4.png"
+    },
+    "tags" :{
+        "tag1" : "personal",
+        "tag2" : "business",
+        "tag3" : "shopify"
+}, 
+
+    "twiceContent" : "azertyuiopqsdfghjklmwxcvbn",
+    "pictureFull" : "/tim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg"
+},
+{      
+    "id" : 3,  
+    "slug": "projects",
+    "title": "projet",
+    "content" : {
+        "title" : "projet",
+        "description" : "G-SPEED is a family garage that deals with vintage cars. We only sell exclusive cars in clinical condition. The owner wanted the site in record time, so I delivered it to him",
+        "content" : "overcop",
+        "link" : "https://www.overcop.com/",
+        "year" : "2023"
     },
     "images" : {
         "thumbnail" : "/g-speed/DSC_0077.jpg",

@@ -35,8 +35,8 @@ export default function Home() {
         <ContextualMenu/>
         <Clock/>
         <h1 className={styles.title}>FOLIO 20/23</h1>
-        <ProjectsListIndex projects={projects} />
       </main>
+        <ProjectsListIndex projects={projects} />
     </>
   )
 }
