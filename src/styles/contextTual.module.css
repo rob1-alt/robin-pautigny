@@ -89,12 +89,12 @@
     opacity: 1;
   }
   .project:hover h2{
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     z-index: 9999;
   }
   
   .project:hover span{
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     z-index: 9999;
   }
 
