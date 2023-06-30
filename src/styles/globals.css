@@ -17,6 +17,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Bold Font";
+  src: url('../THEBOLDFONT.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -44,3 +51,4 @@ a{
   background: var(--text-color);
   color: aliceblue;
 }
+
