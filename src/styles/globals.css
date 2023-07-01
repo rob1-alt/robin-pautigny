@@ -24,6 +24,19 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "GETAI";
+  src: url('../DTGetaiGroteskDisplay-Black.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Thunder bold";
+  src: url('../Thunder-BoldLC.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
 * {
   box-sizing: border-box;
   padding: 0;
@@ -36,6 +49,8 @@ body {
   overflow-x: hidden;
   font-family: 'Inter', sans-serif;
   font-weight: bold;
+  /* background: #feedcf; */
+  background: #f9f5ed;
 }
 
 ul{
@@ -51,4 +66,11 @@ a{
   background: var(--text-color);
   color: aliceblue;
 }
+
+@media screen and (max-width: 900px) {
+  h1,h2,h3, span{
+    font-family: "Thunder bold"
+  }
+}
+  
 

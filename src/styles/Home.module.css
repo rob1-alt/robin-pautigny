@@ -1,4 +1,11 @@
-
+@media screen and (max-width: 900px) {
+  .title{
+    font-family: "Thunder bold" !important
+  }
+  .workTitle{
+    font-family: "Thunder bold" !important;
+  }
+}
 
 .title{
   font-family: "Thunder";
