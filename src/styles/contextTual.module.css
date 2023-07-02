@@ -2,6 +2,9 @@
   z-index: 9999;
 }
 
+.logo{
+  z-index: 9999;
+}
 
 .logo{
   z-index: 9999;
@@ -90,12 +93,12 @@
   }
   .project:hover h2{
     color: rgb(255, 255, 255);
-    z-index: 9999;
+    z-index: 999;
   }
   
   .project:hover span{
     color: rgb(255, 255, 255);
-    z-index: 9999;
+    z-index: 999;
   }
 
 

@@ -29,6 +29,35 @@
         "pictureFull" : "/tim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg"
     },
     {      
+    "id" : 3,  
+    "slug": "sparkles",
+    "title": "sparkles",
+    "content" : {
+        "title" : "sparkles✨",
+        "description" : "G-SPEED is a family garage that deals with vintage cars. We only sell exclusive cars in clinical condition. The owner wanted the site in record time, so I delivered it to him",
+        "content" : "overcop",
+        "link" : "https://www.overcop.com/",
+        "year" : "SOON"
+    },
+    "images" : {
+        "thumbnail" : "/g-speed/DSC_0077.jpg",
+        "ipadMockup" : "/overcop/test.png",
+        "doubleIpadMockup" : "/overcop/ipad2mockup.png",
+        "grid1" : "/overcop/grid-1.png",
+        "grid2" : "/overcop/grid-2.png",
+        "grid3" : "/overcop/grid-3.png",
+        "grid4" : "/overcop/grid-4.png"
+    },
+    "tags" :{
+        "tag1" : "personal",
+        "tag2" : "business",
+        "tag3" : "shopify"
+}, 
+
+        "twiceContent" : "azertyuiopqsdfghjklmwxcvbn",
+        "pictureFull" : "/tim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg"
+    },
+    {      
         "id" : 1,  
         "slug": "flocs",
         "title": "Flocs",
@@ -111,35 +140,5 @@
 
     "twiceContent" : "azertyuiopqsdfghjklmwxcvbn",
     "pictureFull" : "/tim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg"
-},
-{      
-    "id" : 3,  
-    "slug": "projects",
-    "title": "projet",
-    "content" : {
-        "title" : "projet",
-        "description" : "G-SPEED is a family garage that deals with vintage cars. We only sell exclusive cars in clinical condition. The owner wanted the site in record time, so I delivered it to him",
-        "content" : "overcop",
-        "link" : "https://www.overcop.com/",
-        "year" : "2023"
-    },
-    "images" : {
-        "thumbnail" : "/g-speed/DSC_0077.jpg",
-        "ipadMockup" : "/overcop/test.png",
-        "doubleIpadMockup" : "/overcop/ipad2mockup.png",
-        "grid1" : "/overcop/grid-1.png",
-        "grid2" : "/overcop/grid-2.png",
-        "grid3" : "/overcop/grid-3.png",
-        "grid4" : "/overcop/grid-4.png"
-    },
-    "tags" :{
-        "tag1" : "personal",
-        "tag2" : "business",
-        "tag3" : "shopify"
-}, 
-
-    "twiceContent" : "azertyuiopqsdfghjklmwxcvbn",
-    "pictureFull" : "/tim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg"
 }
-
 ]
