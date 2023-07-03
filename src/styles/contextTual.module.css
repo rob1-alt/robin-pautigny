@@ -70,6 +70,7 @@
   .projectsList {
     display: flex;
     flex-direction: column;
+    height: 150vh;
   }
   
   .project {
@@ -179,3 +180,4 @@
   .marquee:hover .track {
     animation-play-state: paused;
   }
+

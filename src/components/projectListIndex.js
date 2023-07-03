@@ -6,6 +6,9 @@ import Link from "next/link";
 export default function ProjectsListIndex({ projects }) {
   const [hoveredProject, setHoveredProject] = useState(null);
 
+  const filteredProjects = projects.filter(project => !project.test);
+
+
   return (
 <div>
     {/* <div className={styles.marquee}>
@@ -13,7 +16,7 @@ export default function ProjectsListIndex({ projects }) {
     </div> */}
     <div className={styles.marquee}>
   <div className={styles.track}>
-    <div className={styles.content}>&nbsp;PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS</div>
+    <div className={styles.content}>&nbsp;PROJECTS - PROJECTS - PROJECTS - PROJECTS - PROJECTS - PROJECTS - PROJECTS - PROJECTS - PROJECTS - PROJECTS - PROJECTS - PROJECTS</div>
   </div>
 </div>
     <div className={styles.projectsList}>
@@ -33,7 +36,9 @@ export default function ProjectsListIndex({ projects }) {
           </Link>
         </div>
       ))}
+      
     </div>
+    
   </div>
   );
 }
