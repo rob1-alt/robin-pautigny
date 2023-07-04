@@ -1,18 +1,19 @@
 import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
 import ContextualMenu from '../components/contextualMenu'
-import Clock from '../components/clock'
+// import Clock from '../components/clock'
 import CustomCursor from '../components/cursor'
 import Link from 'next/link'
 import ProjectsListIndex from '@/components/projectListIndex'
 import { useState, useEffect } from 'react'
 import ProjectDB from '../utils/articles.json';
+import Loader from '../components/loader'
 
 
 export default function Home() {
   // Assuming you have your projects data here
   const [projects, setProjects] = useState([]);
-
+  const [progress, setProgress] = useState(0);
   const background = ProjectDB.background
 
   useEffect(() => {
@@ -20,6 +21,23 @@ export default function Home() {
       setProjects(ProjectDB);
     }
     fetchData();
+  }, []);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setProgress((prevProgress) => {
+        if (prevProgress === 100) {
+          clearInterval(interval);
+          return prevProgress;
+        } else {
+          return prevProgress + 1;
+        }
+      });
+    }, 10);
+  
+    return () => {
+      clearInterval(interval);
+    };
   }, []);
 
   return (
@@ -33,9 +51,14 @@ export default function Home() {
       <main className={styles.main}>
         <CustomCursor/>
         <ContextualMenu/>
-        <Clock/>
+        {/* <Clock/> */}
+        <Loader/>
         <h1 className={styles.title}>FOLIO 20/23</h1>
       </main>
+      <div className={styles.progressBar}>
+      <div className={styles.progressBarFill} style={{ width: `${progress}%` }}></div>
+      </div>
+      <div className={styles.progressText}>{progress}%</div>
         <ProjectsListIndex projects={projects} />
     </>
   )
