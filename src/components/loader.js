@@ -2,6 +2,7 @@
 
 
 import React, { useState, useEffect } from 'react';
+import styles from '@/styles/contextTual.module.css';
 
 const Loader = () => {
   const [progress, setProgress] = useState(0);
@@ -49,7 +50,7 @@ const Loader = () => {
   return (
     <div>
       {!showContent && (
-        <div style={loaderStyle}>
+        <div style={loaderStyle} className={styles.loaderMobile}>
           <div style={{ marginTop: '10px' }}>{progress}%</div>
         </div>
       )}
