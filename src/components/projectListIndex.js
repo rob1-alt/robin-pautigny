@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function ProjectsListIndex({ projects }) {
   const [hoveredProject, setHoveredProject] = useState(null);
 
-  const filteredProjects = projects.filter(project => !project.test);
+  // const filteredProjects = projects.filter(project => !project.test);
 
 
   return (

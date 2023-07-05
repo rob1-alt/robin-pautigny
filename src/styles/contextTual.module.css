@@ -122,33 +122,6 @@
   }
   
 
-  /* .marquee {
-    width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    position: relative;
-  }
-  
-  .marquee p {
-    display: inline-block;
-    padding-left: 100%;
-    animation: marquee 10s linear infinite;
-  }
-  
-  @keyframes marquee {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-100%); }
-  }
-  
-  .marquee:hover p {
-    animation-play-state: paused;
-  }
-
-  .marquee{
-    font-family: "Thunder";
-    text-transform: uppercase;
-    font-size: 7vw;
-  } */
 
 
   .marquee {
@@ -157,6 +130,7 @@
     max-width: 100%;
     height: 13vh;
     overflow-x: hidden;
+    overflow-y: hidden;
     font-size: 6em;
     font-family: "Thunder bold";
     border-top: 1px solid #ccc;
@@ -166,6 +140,9 @@
   }
   
   .track {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     white-space: nowrap;
     will-change: transform;
@@ -181,3 +158,19 @@
     animation-play-state: paused;
   }
 
+
+  .loaderStyle{
+    width: 100%;
+    height: 100vh;
+    font-size: 10em;
+    display: flex;
+    justify-content: center;
+    font-family: "Thunder";
+    align-items: center;
+    background: #f9f5ed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    transition: opacity 0.5s ease-out;
+  };
