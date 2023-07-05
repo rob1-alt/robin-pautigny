@@ -5,10 +5,8 @@ import ProjectDB from '../utils/articles.json';
 import ContextualMenu from "@/components/contextualMenu";
 import Clock from "@/components/clock";
 import Head from 'next/head'
-import Image from 'next/image'
 import { gsap } from 'gsap';
 import { SplitText } from '../vendors/gsap/SplitText';
-import Background from "@/components/noise";
 
 
 function ProjectsList() {
@@ -56,20 +54,20 @@ function ProjectsList() {
       <ContextualMenu/>
       <Clock/>
     <div ref={textRef} className={styles.mainProject}>
-    {/* <canvas id="background"></canvas>
-    <Background></Background> */}
       <h1 ref={splitTextRef} className={styles.workTitle} id="myText">MY WORK</h1>
     </div>
     <section >
         <ul className={styles.listing}>
           {projects.map((project) => (
+          <Link href={`/projects/${project.slug}`}>
             <div className={styles.card} style={{ backgroundImage: `url(${project.images.thumbnail})`}} >
             <li key={project.id}>
-              <Link className={styles.link} href={`/projects/${project.slug}`}>
+              <div className={styles.link}>
                 <div className={styles.cardTitle}>{project.title}</div>
-              </Link>
+              </div>
             </li> 
             </div>
+            </Link>
           ))}
         </ul>
     </section>
