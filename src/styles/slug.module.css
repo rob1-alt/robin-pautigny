@@ -74,7 +74,7 @@
   }
   .tags p{
     text-transform: uppercase;
-    background-color: #F3F3F3;
+    background-color: #f9edd6;
     color : #7C7C7C;
     border-radius: var(--border-radius);
     width: fit-content;

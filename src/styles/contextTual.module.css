@@ -60,6 +60,9 @@
     .menuList{
       display: none;
     }
+    .projectsList{
+      height: 70vh !important;
+    }
 
     .middleNav{
       width: 50%;
@@ -70,11 +73,17 @@
     }
   }
 
+  @media screen and (max-width : 1200px) {
+    .projectsList{
+      height: 80vh !important;
+    }
+  }
+
 
   .projectsList {
     display: flex;
     flex-direction: column;
-    height: 150vh;
+    height: 100vh;
   }
   
   .project {
@@ -162,3 +171,11 @@
     animation-play-state: paused;
   }
 
+
+
+
+  .active{
+    /* background-color: red;
+    border-radius: 10px; */
+    color: var(--text-color);
+  }

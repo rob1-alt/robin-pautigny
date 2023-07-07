@@ -1,8 +1,15 @@
 import styles from '@/styles/contextTual.module.css'
 import Link from 'next/link'
+import { useRouter } from 'next/router';
+
 
 
 function ContextualMenu() {
+    const router = useRouter();
+
+    function isActive(path) {
+  return router.asPath === path || router.asPath.startsWith(path);
+}
     return (
         <div className={styles.contextualMenu}>
             <div className={styles.logo}>
@@ -36,12 +43,21 @@ function ContextualMenu() {
 
             <div className={styles.middleNav}>
                 <ul className={styles.links}>
-                <Link href="/projects">
-                    <li>Work</li>
-                </Link>
-                <Link href="/about">
-                    <li>About</li>
-                </Link>
+                <div className={isActive('/projects') ? ` ${styles.active}` : styles.link}>
+
+          <Link href="/projects">
+            <li className={isActive('/projects') ? styles.active : ''}>Work</li>
+          </Link>
+          {/* ... */}
+
+      </div>
+
+      <div className={isActive('/about') ? ` ${styles.active}` : styles.link}>
+          <Link href="/about">
+            <li className={isActive('/about') ? styles.active : ''}>About</li>
+          </Link>
+          {/* ... */}
+      </div>
                 </ul>
             </div>
 

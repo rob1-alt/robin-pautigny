@@ -5,7 +5,7 @@
         "title": "overcop",
         "content" : {
             "title" : "overcop",
-            "description" : "overcop is a sneakers webstore who care about have the low prices on the market. We provide the best quality sneakers at a fair price for our amazing customers. ",
+            "description" : "overcop is a sneakers webstore who care about have the low prices on the market. We provide the best quality sneakers at a fair price for our amazing customers.",
             "content" : "overcop",
             "link" : "https://www.overcop.com/",
             "year" : "2023"
@@ -23,11 +23,7 @@
             "tag1" : "personal",
             "tag2" : "business",
             "tag3" : "shopify"
-    }, 
-        "test" : "test",
-
-        "twiceContent" : "azertyuiopqsdfghjklmwxcvbn",
-        "pictureFull" : "/tim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg"
+    }
     },
   
     {      
@@ -54,10 +50,7 @@
             "tag1" : "ecommerce",
             "tag2" : "school",
             "tag3" : "bubble"
-    }, 
-
-        "twiceContent" : "azertyuiopqsdfghjklmwxcvbn",
-        "pictureFull" : "/tim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg"
+    }
     },
     {      
     "id" : 3,  
@@ -66,27 +59,24 @@
     "content" : {
         "title" : "g-speed",
         "description" : "G-SPEED is a family garage that deals with vintage cars. We only sell exclusive cars in clinical condition. The owner wanted the site in record time, so I delivered it to him",
-        "content" : "overcop",
-        "link" : "https://www.overcop.com/",
+        "content" : "g-speed",
+        "link" : "https://www.g-speed.fr/",
         "year" : "2023"
     },
     "images" : {
         "thumbnail" : "/g-speed/main.jpg",
-        "ipadMockup" : "/overcop/test.png",
-        "doubleIpadMockup" : "/overcop/ipad2mockup.png",
+        "ipadMockup" : "/g-speed/ipad-g-speed.png",
+        "doubleIpadMockup" : "/g-speed/double-g-speed.png",
         "grid1" : "/g-speed/profile.jpg",
-        "grid2" : "/overcop/grid-2.png",
-        "grid3" : "/overcop/grid-2.png",
-        "grid4" : "/g-speed/belt.jpg"
+        "grid2" : "/g-speed/g-speed-2.png",
+        "grid3" : "/g-speed/g-speed-1.png",
+        "grid4" : "/g-speed/belt.jpg "
     },
     "tags" :{
         "tag1" : "personal",
         "tag2" : "business",
-        "tag3" : "shopify"
-}, 
-
-    "twiceContent" : "azertyuiopqsdfghjklmwxcvbn",
-    "pictureFull" : "/tim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg"
+        "tag3" : "wordpress"
+}
 },
     {      
         "id" : 2,  
@@ -103,15 +93,15 @@
             "thumbnail" : "/mfo/mfoFull.jpeg",
             "ipadMockup" : "/mfo/IpadMockup.png",
             "doubleIpadMockup" : "/mfo/ipads.png",
-            "grid1" : "/overcop/gridItem1.png",
-            "grid2" : "/overcop/gridItem2.png",
-            "grid3" : "/overcop/gridItem3.png",
-            "grid4" : "/overcop/gridItem4.png"
+            "grid1" : "/mfo/grid-1-mfo.png",
+            "grid2" : "/mfo/grid-mfo-3.png",
+            "grid3" : "/mfo/grid-mfo-4.png",
+            "grid4" : "/mfo/grid-2-mfo.png"
         },
         "tags" :{
-            "tag1" : "personal",
+            "tag1" : "professional",
             "tag2" : "business",
-            "tag3" : "shopify"
+            "tag3" : "CMS"
     }
 }
 ]

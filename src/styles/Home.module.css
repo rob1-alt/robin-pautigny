@@ -121,6 +121,9 @@
   .clock{
     display: none;
   }
+  .footer{
+    height: 40vh !important;
+  }
   
 }
 
@@ -146,4 +149,22 @@
 .progressText {
   margin-top: 10px;
   text-align: center;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  height: 60vh;
+}
+
+.footer h2{
+  font-size: 12vw;
+  font-family: 'Thunder Bold';
+  text-transform: uppercase;
+}
+
+.footer span{
+  font-family: 'GETAI';
+  font-size: 2em;
 }
