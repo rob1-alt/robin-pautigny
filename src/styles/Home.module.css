@@ -5,6 +5,9 @@
   .workTitle{
     font-family: "Thunder bold" !important;
   }
+  .aboutTitle{
+    font-family: "Thunder bold" !important;
+  }
 }
 
 .title{
@@ -49,6 +52,51 @@
   }
 }
 
+
+.aboutTitle{
+  font-family: "Thunder";
+  text-transform: uppercase;
+  font-size: 20vw;
+}
+
+@media screen and (max-width : 900px){
+  .aboutTitle{
+    font-size: 34vw;
+  }
+}
+
+.aboutMeContainer{
+  height: 100vh;
+}
+
+.portrait{
+  height: 35%;
+  width: 35%;
+}
+
+.pictureFull{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.firstName{
+  font-family: "Thunder";
+  font-size: 12vw;
+  text-transform: uppercase;
+  margin-left: -40vw ;
+  margin-bottom: -7vw;
+  z-index: 99;
+}
+
+.lastName{
+  font-family: "Thunder";
+  font-size: 12vw;
+  text-transform: uppercase;
+  margin-right: -55vw ;
+  margin-top: -7vw;
+}
 
 .char{
   transform: translate(115px);
@@ -123,8 +171,17 @@
   }
   .footer{
     height: 40vh !important;
+    margin-top: 30px;
   }
   
+}
+
+@media screen and (max-width: 1400px){
+
+  .footer{
+      height: 40vh !important;
+      margin-top: 60px;
+  }
 }
 
 .playlist{
