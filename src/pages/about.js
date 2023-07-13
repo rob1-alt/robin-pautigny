@@ -25,17 +25,23 @@ function About(){
     useEffect(() => {
         const el = imgRef.current;
         gsap.fromTo(
-          el,
-          { opacity: 0 },
-          {
-            opacity: 1,
-            duration: 3,
-            scrollTrigger: {
-              trigger: el,
+            el,
+            {
+              opacity: 0,
+              scale: 0.8,
+              transformOrigin: "center center",
             },
-          }
-        )
-      }, []);
+            {
+              opacity: 1,
+              scale: 1,
+              duration: 0.9,
+              ease: "power1.inOut",
+              scrollTrigger: {
+                trigger: el,
+              },
+            }
+          );
+        }, []);
   
     useEffect(() => {
       if(!splitTextRef.current) return
