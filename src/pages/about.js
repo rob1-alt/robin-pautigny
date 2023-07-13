@@ -5,7 +5,10 @@ import Clock from "@/components/clock";
 import { gsap } from 'gsap';
 import { SplitText } from '../vendors/gsap/SplitText';
 import Image from "next/image";
+import Portrait from '/public/seflPortrait.png'
+import { ScrollTrigger } from '../vendors/gsap/ScrollTrigger'
 
+gsap.registerPlugin(ScrollTrigger);
 
 
 
@@ -16,6 +19,23 @@ function About(){
     const textRef = useRef(null);
     const splitTextRef = useRef(null);
     const [ setCount] = useState(0);
+    const imgRef = useRef(null)
+
+
+    useEffect(() => {
+      const el = imgRef.current;
+      gsap.fromTo(
+        el,
+        { rotation: 0 },
+        {
+          rotation: 180,
+          duration: 3,
+          scrollTrigger: {
+            trigger: el,
+          },
+        }
+      )
+    }, []);
   
     useEffect(() => {
       if(!splitTextRef.current) return
@@ -49,6 +69,7 @@ function About(){
                         height={2440}
                         alt="Picture of the author"
                         className={styles.portrait}
+                        ref={imgRef}
                     />
                     <span className={styles.lastName}>Pautigny</span>
                 </div>

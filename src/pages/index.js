@@ -32,7 +32,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <script defer src="https://digianalytics.fr/pixel/PKR0TKFQlrW9n0lS"></script>
+      {/* <script defer src="https://digianalytics.fr/pixel/PKR0TKFQlrW9n0lS"></script> */}
       <main className={styles.main}>
         <CustomCursor/>
         <ContextualMenu/>
