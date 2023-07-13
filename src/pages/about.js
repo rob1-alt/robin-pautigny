@@ -23,19 +23,19 @@ function About(){
 
 
     useEffect(() => {
-      const el = imgRef.current;
-      gsap.fromTo(
-        el,
-        { rotation: 0 },
-        {
-          rotation: 180,
-          duration: 3,
-          scrollTrigger: {
-            trigger: el,
-          },
-        }
-      )
-    }, []);
+        const el = imgRef.current;
+        gsap.fromTo(
+          el,
+          { opacity: 0 },
+          {
+            opacity: 1,
+            duration: 3,
+            scrollTrigger: {
+              trigger: el,
+            },
+          }
+        )
+      }, []);
   
     useEffect(() => {
       if(!splitTextRef.current) return
