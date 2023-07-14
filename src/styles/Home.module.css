@@ -197,6 +197,10 @@
   .listing{
     grid-template-columns: 1fr ;
   }
+  .download{
+    height: 220px;
+    margin-top: 10px;
+  }
 }
   
 .card{
