@@ -81,6 +81,7 @@ function About(){
                 </div>
                 <div className={styles.summary}>
                     <h2>Personal Summary</h2>
+                    <span>Ever since I was a child, I've had this entrepreneurial spirit, and I think it was my dad who gave me the virus. In fact, I've always been a problem-solver. Today, I define myself as a Product Owner, and I have to say that I really enjoy this job. Whether it's the project management aspect, the roadmap or the tech aspect. But above all in the business aspect 💸. </span>
                 </div>
             </div>
             {/* <iframe  src="https://open.spotify.com/embed/playlist/4oGy1dYDhTJxMdD42hrqig?utm_source=generator&theme=0" width="20%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> */}

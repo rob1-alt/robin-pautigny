@@ -61,9 +61,9 @@
     .menuList{
       display: none;
     }
-    .projectsList{
+    /* .projectsList{
       height: 70vh !important;
-    }
+    } */
 
     .middleNav{
       width: 50%;
@@ -75,16 +75,16 @@
   }
 
   @media screen and (max-width : 1200px) {
-    .projectsList{
+    /* .projectsList{
       height: 80vh !important;
-    }
+    } */
   }
 
 
   .projectsList {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+
   }
   
   .project {
