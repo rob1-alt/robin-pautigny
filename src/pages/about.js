@@ -81,7 +81,10 @@ function About(){
                 </div>
                 <div className={styles.summary}>
                     <h2>Personal Summary</h2>
-                    <span>Ever since I was a child, I've had this entrepreneurial spirit, and I think it was my dad who gave me the virus. In fact, I've always been a problem-solver. Today, I define myself as a Product Owner, and I have to say that I really enjoy this job. Whether it's the project management aspect, the roadmap or the tech aspect. But above all in the business aspect 💸. </span>
+                    <span>Hi, my name is Robin Pautigny, I'm 21 and I'm in my 5th year of a Master's Degree at <a className={styles.linksText} href="https://hetic.net" target="_blank">HETIC</a>. I live in Fontainebleau, not far from the Paris region. Perfect for working in Paris.<br/></span>
+                    <span>Ever since I was a child, I've had this entrepreneurial spirit, and I think it was my dad who gave me the virus. In fact, I've always been a problem-solver. Today, I define myself as a Product Owner, and I have to say that I really enjoy this job. I think it's really going to help me on my journey to becoming a good entrepreneur. Whether it's the project management aspect, the roadmap or the tech aspect.<br/> But above all in the business aspect 💸. </span>
+                    <span><br/>During my first 4 years at HETIC , I tried to create as many things as possible. I launched my own freelance company to create websites and dashboards for my clients. I also launched a shop with a friend, which you can find <a href="/projects/overcop" className={styles.linksText}>here</a>. And right now we're working on a top secret project. 👀</span>
+                    <h2 className={styles.download}><a href="/seflPortrait.png" download="🎉Robin's Awesome Resume 🎉">Download my resume</a></h2>
                 </div>
             </div>
             {/* <iframe  src="https://open.spotify.com/embed/playlist/4oGy1dYDhTJxMdD42hrqig?utm_source=generator&theme=0" width="20%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> */}

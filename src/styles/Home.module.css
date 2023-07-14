@@ -38,6 +38,16 @@
   font-family: 'Inter', sans-serif;
   font-weight: bold;
   color: var(--text-color);
+  z-index: 9999;
+}
+
+.download{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px !important;
+  text-decoration: none !important;
 }
 
 .workTitle{
@@ -122,9 +132,13 @@
 
 .summary{
   margin: 40px;
+  margin-top: 100px;
+  height: 500px;
 }
 .summary span{
   font-family: "Bold Font";
+  font-size: 1.2em;
+  line-height: 120%;
 }
 
 .summary h2{
@@ -133,6 +147,11 @@
   text-transform: uppercase;
   text-decoration: underline;
   margin-bottom: 50px;
+}
+
+.linksText{
+  color: var(--text-color);
+  text-decoration: underline;
 }
 
 
