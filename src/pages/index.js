@@ -31,6 +31,10 @@ export default function Home() {
         <meta name="description" content="Hello I'm Robin, a twenty one years old creative entrepreneur based in Paris. I'm a 4th year student at HETIC. Come and see my awesome projects." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:image" content="/thumbnail.png"/>
+        <meta property="og:title" content="Robin Pautigny"/>
+        <meta property="og:image:width" content="500"/>
+        <meta property="og:image:height" content="830"/>
+        <meta property="og:image:alt" content="Thumbnail"/>
         <link rel="icon" href="/favicon.png" />
       </Head>
       {/* <script defer src="https://digianalytics.fr/pixel/PKR0TKFQlrW9n0lS"></script> */}
