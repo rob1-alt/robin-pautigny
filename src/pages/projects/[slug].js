@@ -7,6 +7,8 @@ import ContextualMenu from "../../components/contextualMenu";
 import Clock from "../../components/clock";
 import { gsap } from 'gsap';
 import { SplitText } from '../../vendors/gsap/SplitText';
+import Head from 'next/head'
+
 
 
 // gsap.registerPlugin(SplitText);
@@ -100,7 +102,19 @@ const [ setCount] = useState(0);
 
 
 return (
+  
   <div ref={projectRef}>
+                    <Head>
+                    <title>{project.title}</title>
+                    <meta name="description" content="Hello I'm Robin, a twenty one years old creative entrepreneur based in Paris. I'm a 4th year student at HETIC. Come and see my awesome projects." />
+                    <meta name="viewport" content="width=device-width, initial-scale=1" />
+                    <meta property="og:image" content="/thumbnail.png"/>
+                    <meta property="og:title" content="Robin Pautigny"/>
+                    <meta property="og:image:width" content="500"/>
+                    <meta property="og:image:height" content="830"/>
+                    <meta property="og:image:alt" content="Thumbnail"/>
+                    <link rel="icon" href="/favicon.png" />
+                </Head>
     <ContextualMenu/>
     <Clock/>
     <div ref={textRef} className={styles.mainProject}>

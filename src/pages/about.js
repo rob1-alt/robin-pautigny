@@ -7,6 +7,9 @@ import { SplitText } from '../vendors/gsap/SplitText';
 import Image from "next/image";
 import Portrait from '/public/seflPortrait.png'
 import { ScrollTrigger } from '../vendors/gsap/ScrollTrigger'
+import Head from 'next/head'
+
+
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -61,6 +64,17 @@ function About(){
 
     return (
         <div>
+                <Head>
+                    <title>About me</title>
+                    <meta name="description" content="Hello I'm Robin, a twenty one years old creative entrepreneur based in Paris. I'm a 4th year student at HETIC. Come and see my awesome projects." />
+                    <meta name="viewport" content="width=device-width, initial-scale=1" />
+                    <meta property="og:image" content="/thumbnail.png"/>
+                    <meta property="og:title" content="Robin Pautigny"/>
+                    <meta property="og:image:width" content="500"/>
+                    <meta property="og:image:height" content="830"/>
+                    <meta property="og:image:alt" content="Thumbnail"/>
+                    <link rel="icon" href="/favicon.png" />
+                </Head>
             <ContextualMenu/>
             <Clock/>
             <div ref={textRef} className={styles.mainProject}>
@@ -84,7 +98,7 @@ function About(){
                     <span>Hi, my name is Robin Pautigny, I'm 21 and I'm in my 5th year of a Master's Degree at <a className={styles.linksText} href="https://hetic.net" target="_blank">HETIC</a>. I live in Fontainebleau, not far from the Paris region. Perfect for working in Paris.<br/></span>
                     <span>Ever since I was a child, I've had this entrepreneurial spirit, and I think it was my dad who gave me the virus. In fact, I've always been a problem-solver. Today, I define myself as a Product Owner, and I have to say that I really enjoy this job. I think it's really going to help me on my journey to becoming a good entrepreneur. Whether it's the project management aspect, the roadmap or the tech aspect.<br/> But above all in the business aspect 💸. </span>
                     <span><br/>During my first 4 years at HETIC , I tried to create as many things as possible. I launched my own freelance company to create websites and dashboards for my clients. I also launched a shop with a friend, which you can find <a href="/projects/overcop" className={styles.linksText}>here</a>. And right now we're working on a top secret project. 👀</span>
-                    <h2 className={styles.download}><a href="/seflPortrait.png" download="🎉Robin's Awesome Resume 🎉">Download my resume</a></h2>
+                    <h2 className={styles.download}><a href="/CVPAUTIGNY.pdf" download="🎉CV-ROBIN-PAUTIGNY🎉">Download my resume</a></h2>
                 </div>
             </div>
             {/* <iframe  src="https://open.spotify.com/embed/playlist/4oGy1dYDhTJxMdD42hrqig?utm_source=generator&theme=0" width="20%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> */}

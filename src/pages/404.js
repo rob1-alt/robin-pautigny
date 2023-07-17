@@ -8,11 +8,11 @@ export default function FourOhFour() {
   <div className={styles.main}>
 
     <h1 className={styles.four}>404</h1>
-    {/* <Link href="/">
+    <Link className={styles.backButton} href="/">
       <p>
         Go back home
       </p>
-    </Link> */}
+    </Link>
   </div>
   </>
 }

@@ -11,6 +11,7 @@ export default function ProjectsListIndex({ projects }) {
 
   return (
 <div>
+
     {/* <div className={styles.marquee}>
       <p>PROJECTS • Projects </p>
     </div> */}

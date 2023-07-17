@@ -26,8 +26,10 @@
 .main{
   display: flex;
   justify-content: center;
-  margin-top: 37vh;  
-  height: 70vh;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 26vh;  
+  height: 60vh;
 }
 
 
@@ -139,7 +141,7 @@
   height: 500px;
 }
 .summary span{
-  font-family: "Bold Font";
+  font-family: 'Inter', sans-serif;
   font-size: 1.2em;
   line-height: 120%;
 }
@@ -330,3 +332,11 @@
   font-family: 'GETAI';
   font-size: 2em;
 }
+
+
+.backButton{
+  color: var(--text-color);
+  font-family: 'GETAI';
+}
+
+
