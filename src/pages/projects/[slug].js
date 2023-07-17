@@ -146,7 +146,7 @@ return (
       <div className={styles.gridItem} style={grid3}></div>
       <div className={styles.gridItem} style={grid4}></div>
     </div>
-    <Link href="/projects">Retour à la liste des projets</Link>
+    {/* <Link href="/projects">Retour à la liste des projets</Link> */}
   </div>
 );
 }
