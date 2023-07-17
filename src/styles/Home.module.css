@@ -22,6 +22,14 @@
   height: 70vh; 
 }
 
+.mainIndex{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 11vw; 
+  height: 79vh;
+}
 
 .main{
   display: flex;
