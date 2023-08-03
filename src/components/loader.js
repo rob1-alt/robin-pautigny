@@ -9,6 +9,34 @@ const Loader = () => {
   const [showContent, setShowContent] = useState(false);
 
   useEffect(() => {
+    const alreadyShown = localStorage.getItem('animationShown');
+
+    if (!alreadyShown) {
+      const interval = setInterval(() => {
+        setProgress((prevProgress) => {
+          if (prevProgress >= 100) {
+            clearInterval(interval);
+            setShowContent(true);
+            localStorage.setItem('animationShown', 'true'); // Set the flag to indicate animation already shown
+            return 100;
+          } else {
+            const increment = prevProgress < 20 ? 1 : Math.floor(Math.random() * 30) + 1;
+            const newProgress = prevProgress + increment;
+            return newProgress > 100 ? 100 : newProgress;
+          }
+        });
+      }, 100);
+
+      return () => {
+        clearInterval(interval);
+      };
+    } else {
+      // If animation already shown, set showContent to true
+      setShowContent(true);
+    }
+  }, []);
+
+  useEffect(() => {
     const interval = setInterval(() => {
       setProgress((prevProgress) => {
         if (prevProgress >= 100) {
