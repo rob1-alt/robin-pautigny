@@ -92,7 +92,7 @@
         "images" : {
             "thumbnail" : "/mfo/mfoFull.jpeg",
             "ipadMockup" : "/mfo/IpadMockup.png",
-            "doubleIpadMockup" : "/mfo/ipads.png",
+            "doubleIpadMockup" : "/mfo/Ipads.png",
             "grid1" : "/mfo/grid-1-mfo.png",
             "grid2" : "/mfo/grid-mfo-3.png",
             "grid3" : "/mfo/grid-mfo-4.png",
@@ -103,5 +103,31 @@
             "tag2" : "business",
             "tag3" : "CMS"
     }
+},
+{      
+    "id" : 2,  
+    "slug": "corse-matin",
+    "title": "Corse Matin",
+    "content" : {
+        "title" : "Corse Matin",
+        "description" : "This was a group school project where our goal was to design mock-ups for a mobile app based on a customer's request and have them developed within one week.",
+        "content" : "corse matin",
+        "link" : "https://www.figma.com/file/igULBiQFvsPMo7uk0QftBm/Corse-matin?type=design&node-id=0%3A1&mode=design&t=3NjdhVgf1o1SMy9r-1",
+        "year" : "2022"
+    },
+    "images" : {
+        "thumbnail" : "/corse-matin/banner-corse.jpg",
+        "ipadMockup" : "/corse-matin/banner-corse.jpg",
+        "doubleIpadMockup" : "/corse-matin/ipadsCM.png",
+        "grid1" : "/corse-matin/yacht.jpg",
+        "grid2" : "/corse-matin/grid2.png",
+        "grid3" : "/corse-matin/grid3.png",
+        "grid4" : "/corse-matin/hills.jpg"
+    },
+    "tags" :{
+        "tag1" : "school",
+        "tag2" : "business",
+        "tag3" : "App"
+}
 }
 ]
