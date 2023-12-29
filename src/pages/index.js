@@ -40,18 +40,19 @@ export default function Home() {
       <script defer src="https://digianalytics.fr/pixel/PKR0TKFQlrW9n0lS"></script>
       <main className={styles.mainIndex}>
       <div className={styles.marquee1}>
-  <div className={styles.track1}>
-    <div className={styles.content}>&nbsp;looking for a apprenticeship as a Product Owner/CEO Right Hand/CEO Right Hand from 4 December 2023 - looking for a apprenticeship as a Product Owner/CEO Right Hand from 4 December 2023 - looking for a apprenticeship as a Product Owner/CEO Right Hand from 4 December 2023 - looking for a apprenticeship as a Product Owner/CEO Right Hand from 4 December 2023 - looking for a apprenticeship as a Product Owner/CEO Right Hand from 4 December 2023 - looking for a apprenticeship as a Product Owner/CEO Right Hand from 4 December 2023 - looking for a apprenticeship as a Product Owner/CEO Right Hand from 4 December 2023 - looking for a apprenticeship as a Product Owner/CEO Right Hand from 4 December 2023 - looking for a apprenticeship as a Product Owner/CEO Right Hand from 4 December 2023 - looking for a apprenticeship as a Product Owner/CEO Right Hand from 4 December 2023</div>
-  </div>
 </div>
         <CustomCursor/>
         <ContextualMenu/>
         <Clock/>
         <Loader/>
-        <h1 className={styles.title}>FOLIO 20/23</h1>
+        <h1 className={styles.title}>FOLIO 20/24</h1>
       </main>
         <ProjectsListIndex projects={projects} />
       <Footer/>
     </>
   )
 }
+
+// {/* <div className={styles.track1}>
+// <div className={styles.content}>&nbsp;looking for a apprenticeship as a Product Owner/CEO Right Hand/CEO Right Hand from 4 December 2023 - looking for a apprenticeship as a Product Owner/CEO Right Hand from 4 December 2023 - looking for a apprenticeship as a Product Owner/CEO Right Hand from 4 December 2023 - looking for a apprenticeship as a Product Owner/CEO Right Hand from 4 December 2023 - looking for a apprenticeship as a Product Owner/CEO Right Hand from 4 December 2023 - looking for a apprenticeship as a Product Owner/CEO Right Hand from 4 December 2023 - looking for a apprenticeship as a Product Owner/CEO Right Hand from 4 December 2023 - looking for a apprenticeship as a Product Owner/CEO Right Hand from 4 December 2023 - looking for a apprenticeship as a Product Owner/CEO Right Hand from 4 December 2023 - looking for a apprenticeship as a Product Owner/CEO Right Hand from 4 December 2023</div>
+// </div> */}

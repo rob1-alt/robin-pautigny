@@ -99,7 +99,7 @@
 }
 
 
-.marquee1 {
+/* .marquee1 {
   position: absolute;
   width: 100vw;
   max-width: 100%;
@@ -115,17 +115,16 @@
   justify-content: center;
   /* border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc; */
-  top: 0;
-}
 
-.track1 {
+
+/* .track1 {
   display: flex;
   justify-content: center;
   align-items: center;
   white-space: nowrap;
   will-change: transform;
   animation: marquee 40s linear infinite;
-}
+} */
 
 .content{
   display: flex;

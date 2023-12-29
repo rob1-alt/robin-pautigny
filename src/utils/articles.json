@@ -1,5 +1,57 @@
 [
     {      
+        "id" : 10,  
+        "slug": "ekoala",
+        "title": "eKoala",
+        "content" : {
+            "title" : "eKoala",
+            "description" : "eKoala",
+            "content" : "eKoala",
+            "link" : "https://www.ekoala-debarras.com/",
+            "year" : "2024"
+        },
+        "images" : {
+            "thumbnail" : "/ekoala/moving.webp",
+            "ipadMockup" : "/overcop/test.png",
+            "doubleIpadMockup" : "/overcop/ipad2mockup.png",
+            "grid1" : "/overcop/grid-1.png",
+            "grid2" : "/overcop/grid-2.png",
+            "grid3" : "/overcop/grid-3.png",
+            "grid4" : "/overcop/grid-4.png"
+        },
+        "tags" :{
+            "tag1" : "personal",
+            "tag2" : "business",
+            "tag3" : "shopify"
+    }
+    },
+    {      
+        "id" : 11,  
+        "slug": "/",
+        "title": "Sparkles",
+        "content" : {
+            "title" : "eKoala",
+            "description" : "eKoala",
+            "content" : "eKoala",
+            "link" : "https://www.overcop.com/",
+            "year" : "2023"
+        },
+        "images" : {
+            "thumbnail" : "/sparkles/banner.png",
+            "ipadMockup" : "/overcop/test.png",
+            "doubleIpadMockup" : "/overcop/ipad2mockup.png",
+            "grid1" : "/overcop/grid-1.png",
+            "grid2" : "/overcop/grid-2.png",
+            "grid3" : "/overcop/grid-3.png",
+            "grid4" : "/overcop/grid-4.png"
+        },
+        "tags" :{
+            "tag1" : "personal",
+            "tag2" : "business",
+            "tag3" : "shopify"
+    }
+    },
+    {      
         "id" : 0,  
         "slug": "overcop",
         "title": "overcop",
