@@ -20,7 +20,7 @@ const EtherPrice = () => {
     fetchEtherPrice();
 
     // Set up interval to fetch Ether price every 1 minute (adjust as needed)
-    const intervalId = setInterval(fetchEtherPrice, 1000);
+    const intervalId = setInterval(fetchEtherPrice, 60000);
 
     // Cleanup interval on component unmount
     return () => clearInterval(intervalId);
