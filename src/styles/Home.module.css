@@ -51,6 +51,16 @@
   z-index: 9999;
 }
 
+.ether{
+  position: fixed;
+  right: 40px;
+  top: 40px;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  color: var(--text-color);
+  z-index: 9999;
+}
+
 .download{
   margin-top: 50px;
   display: flex;

@@ -8,6 +8,7 @@ import ProjectsListIndex from '@/components/projectListIndex'
 import { useState, useEffect } from 'react'
 import ProjectDB from '../utils/articles.json';
 import Loader from '../components/loader'
+import EtherPrice from '@/components/crypto'
 
 
 export default function Home() {
@@ -44,6 +45,7 @@ export default function Home() {
         <CustomCursor/>
         <ContextualMenu/>
         <Clock/>
+        <EtherPrice/>
         <Loader/>
         <h1 className={styles.title}>FOLIO 20/24</h1>
       </main>

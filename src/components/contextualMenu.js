@@ -40,24 +40,23 @@ function ContextualMenu() {
                     </div>
                 </ul>    
             </div>
-
             <div className={styles.middleNav}>
                 <ul className={styles.links}>
                 <div className={isActive('/projects') ? ` ${styles.active}` : styles.link}>
 
-          <Link href="/projects">
-            <li className={isActive('/projects') ? styles.active : ''}>Work</li>
-          </Link>
-          {/* ... */}
+                    <Link href="/projects">
+                        <li className={isActive('/projects') ? styles.active : ''}>Work</li>
+                    </Link>
+                    {/* ... */}
+                </div>
 
-      </div>
-
-      <div className={isActive('/about') ? ` ${styles.active}` : styles.link}>
-          <Link href="/about">
-            <li className={isActive('/about') ? styles.active : ''}>About</li>
-          </Link>
-          {/* ... */}
-      </div>
+            <div className={isActive('/about') ? ` ${styles.active}` : styles.link}>
+                <Link href="/about">
+                    <li className={isActive('/about') ? styles.active : ''}>About</li>
+                </Link>
+                {/* ... */}
+            </div>
+            
                 </ul>
             </div>
 
