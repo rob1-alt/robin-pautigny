@@ -36,7 +36,7 @@
 
   .middleNav{
     color : black;
-    background: #D9D9D9;
+    background: #F9F5ED;
     border-radius: 60px;
     font-size: 12px;
     position: fixed;
@@ -46,6 +46,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 9999;
+    border: dashed 1px;
   }
 
   .links{
