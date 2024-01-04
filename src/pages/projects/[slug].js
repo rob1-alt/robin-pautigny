@@ -8,6 +8,7 @@ import Clock from "../../components/clock";
 import { gsap } from 'gsap';
 import { SplitText } from '../../vendors/gsap/SplitText';
 import Head from 'next/head'
+import EtherPrice from '@/components/crypto'
 
 
 
@@ -116,6 +117,7 @@ return (
                     <link rel="icon" href="/favicon.png" />
                 </Head>
     <ContextualMenu/>
+    <EtherPrice/>
     <Clock/>
     <div ref={textRef} className={styles.mainProject}>
       <h1 ref={splitTextRef}  className={styles.workTitle} id="myText">{project.title}</h1>

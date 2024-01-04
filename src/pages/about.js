@@ -8,6 +8,7 @@ import Image from "next/image";
 import Portrait from '/public/seflPortrait.png'
 import { ScrollTrigger } from '../vendors/gsap/ScrollTrigger'
 import Head from 'next/head'
+import EtherPrice from '@/components/crypto'
 
 
 
@@ -76,6 +77,7 @@ function About(){
                     <link rel="icon" href="/favicon.png" />
                 </Head>
             <ContextualMenu/>
+            <EtherPrice/>
             <Clock/>
             <div ref={textRef} className={styles.mainProject}>
                 <h1 ref={splitTextRef} className={styles.aboutTitle} id="myText">ABOUT ME</h1>

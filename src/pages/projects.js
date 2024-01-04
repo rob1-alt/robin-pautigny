@@ -7,6 +7,7 @@ import Clock from "@/components/clock";
 import Head from 'next/head'
 import { gsap } from 'gsap';
 import { SplitText } from '../vendors/gsap/SplitText';
+import EtherPrice from '@/components/crypto'
 
 
 function ProjectsList() {
@@ -59,6 +60,7 @@ function ProjectsList() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <ContextualMenu/>
+      <EtherPrice/>
       <Clock/>
     <div ref={textRef} className={styles.mainProject}>
       <h1 ref={splitTextRef} className={styles.workTitle} id="myText">MY WORK</h1>
