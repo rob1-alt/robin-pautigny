@@ -77,7 +77,33 @@
             "tag3" : "shopify"
     }
     },
-  
+    {      
+        "id" : 1902,  
+        "slug": "/",
+        "title": "Bump",
+        "content" : {
+            "title" : "Bump",
+            "description" : "No-code project created in 4 days for an ecommerce marketplace selling eco-friendly furniture. It is a dynamic site, which allows to create and sell products. ",
+            "content" : "bump",
+            "link" : "bump app",
+            "year" : "2023"
+        },
+        "images" : {
+            "thumbnail" : "/bump/bump.avif",
+            "thumbnailVideo" : "/bump/Homepage-Model-Y-Desktop-NA.mp4",
+            "ipadMockup" : "/flocs/ipadMockup1.png",
+            "doubleIpadMockup" : "/flocs/Ipads.png",
+            "grid1" : "/flocs/grid.png",
+            "grid2" : "/flocs/grid-1.png",
+            "grid3" : "/flocs/grid-2.png",
+            "grid4" : "/flocs/grid-3.png"
+        },
+        "tags" :{
+            "tag1" : "ecommerce",
+            "tag2" : "school",
+            "tag3" : "bubble"
+    }
+    },
     {      
         "id" : 1,  
         "slug": "flocs",

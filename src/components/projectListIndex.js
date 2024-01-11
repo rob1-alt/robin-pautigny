@@ -1,10 +1,17 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import ProjectDB from '../utils/articles.json';
 import styles from '@/styles/contextTual.module.css';
 import Link from "next/link";
 
 export default function ProjectsListIndex({ projects }) {
   const [hoveredProject, setHoveredProject] = useState(null);
+  const videoRef = useRef(null);
+
+  const playVideo = () => {
+    if (videoRef.current) {
+      videoRef.current.play();
+    }
+  };
 
   // const filteredProjects = projects.filter(project => !project.test);
 
@@ -33,7 +40,13 @@ export default function ProjectsListIndex({ projects }) {
               <h2>{project.title}</h2>
               <span>{project.content.year}</span>
             </div>
-            <img src={project.images.thumbnail} alt={project.title} />
+            <div>
+              {project.images.thumbnailVideo ? (
+                <video ref={videoRef} src={project.images.thumbnailVideo} alt={project.title} autoPlay muted playsInline onClick={playVideo} loop  />
+              ) : (
+                <img src={project.images.thumbnail} alt={project.title} />
+              )}
+          </div>
           </Link>
         </div>
       ))}
