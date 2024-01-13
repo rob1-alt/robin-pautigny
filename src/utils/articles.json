@@ -22,7 +22,7 @@
         "tags" :{
             "tag1" : "personal",
             "tag2" : "business",
-            "tag3" : "shopify"
+            "tag3" : "webflow"
     }
     },
     {      
@@ -48,7 +48,7 @@
         "tags" :{
             "tag1" : "personal",
             "tag2" : "business",
-            "tag3" : "shopify"
+            "tag3" : "fullstack"
     }
     },
     {      
@@ -99,9 +99,9 @@
             "grid4" : "/flocs/grid-3.png"
         },
         "tags" :{
-            "tag1" : "ecommerce",
+            "tag1" : "webapp",
             "tag2" : "school",
-            "tag3" : "bubble"
+            "tag3" : "no-code"
     }
     },
     {      
@@ -179,7 +179,7 @@
         "tags" :{
             "tag1" : "professional",
             "tag2" : "business",
-            "tag3" : "CMS"
+            "tag3" : "wordpress"
     }
 },
 {      

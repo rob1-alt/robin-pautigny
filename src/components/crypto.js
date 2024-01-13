@@ -1,45 +1,49 @@
-
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.css';
 import { useState, useEffect } from 'react';
 
 const EtherPrice = () => {
   const [etherPrice, setEtherPrice] = useState(null);
+  const [prevEtherPrice, setPrevEtherPrice] = useState(null);
 
   useEffect(() => {
     const fetchEtherPrice = async () => {
       try {
         const response = await fetch('https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd');
         const data = await response.json();
-        setEtherPrice(data.ethereum.usd);
+        const currentPrice = data.ethereum.usd;
+        setPrevEtherPrice(etherPrice);
+        setEtherPrice(currentPrice);
       } catch (error) {
         console.error('Error fetching Ether price:', error);
       }
     };
 
-    // Fetch Ether price initially
     fetchEtherPrice();
 
-    // Set up interval to fetch Ether price every 1 minute (adjust as needed)
-    const intervalId = setInterval(fetchEtherPrice, 60000);
-
-    // Cleanup interval on component unmount
+    const intervalId = setInterval(fetchEtherPrice, 6000);
     return () => clearInterval(intervalId);
-  }, []);
+  }, [etherPrice]);
 
   return (
     <div>
-    <div className={styles.ether}>
-      {etherPrice !== null ? (
-        <p>ETH : {etherPrice} USD</p>
-      ) : (
-        <p>$$$...</p>
-      )}
-    </div>
+      <div className={styles.ether}>
+        {etherPrice !== null ? (
+          <>
+            <p>ETH : {etherPrice} USD</p>
+            {prevEtherPrice !== null && (
+              <span className={etherPrice > prevEtherPrice ? styles.arrowUp : styles.arrowDown}></span>
+            )}
+          </>
+        ) : (
+          <p>$$$...</p>
+        )}
+      </div>
     </div>
   );
 };
 
 export default EtherPrice;
+
 
 {/* <style>
 .clock{

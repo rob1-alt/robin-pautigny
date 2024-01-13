@@ -8,6 +8,7 @@ import Head from 'next/head'
 import { gsap } from 'gsap';
 import { SplitText } from '../vendors/gsap/SplitText';
 import EtherPrice from '@/components/crypto'
+import Footer from '@/components/footer'
 
 
 function ProjectsList() {
@@ -80,7 +81,7 @@ function ProjectsList() {
           ))}
         </ul>
     </section>
-
+    <Footer/>
     </div>
   );
 }
