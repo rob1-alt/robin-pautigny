@@ -9,6 +9,7 @@ import { gsap } from 'gsap';
 import { SplitText } from '../vendors/gsap/SplitText';
 import EtherPrice from '@/components/crypto'
 import Footer from '@/components/footer'
+import CustomCursor from '@/components/CustomCursor';
 
 
 function ProjectsList() {
@@ -62,6 +63,7 @@ function ProjectsList() {
       </Head>
       <ContextualMenu/>
       <EtherPrice/>
+      <CustomCursor/>
       <Clock/>
     <div ref={textRef} className={styles.mainProject}>
       <h1 ref={splitTextRef} className={styles.workTitle} id="myText">MY WORK</h1>

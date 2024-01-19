@@ -9,6 +9,7 @@ import { gsap } from 'gsap';
 import { SplitText } from '../../vendors/gsap/SplitText';
 import Head from 'next/head'
 import EtherPrice from '@/components/crypto'
+import CustomCursor from '@/components/CustomCursor';
 
 
 
@@ -119,6 +120,7 @@ return (
     <ContextualMenu/>
     <EtherPrice/>
     <Clock/>
+    <CustomCursor/>
     <div ref={textRef} className={styles.mainProject}>
       <h1 ref={splitTextRef}  className={styles.workTitle} id="myText">{project.title}</h1>
       {/* <button onClick={() => setCount(count + 1)}>Répéter l'animation</button> */}

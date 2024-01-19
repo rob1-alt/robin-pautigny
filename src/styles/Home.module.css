@@ -52,21 +52,32 @@
   font-size: 12vw !important;
 }
 
+.rollingSunContainer {
+  display: inline-block; /* Ajoutez cette propriété pour que la rotation fonctionne correctement */
+}
+
+
+
+/* styles.module.css */
+
 @keyframes rotation {
   from {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(20deg);
-  }
+    transform: rotate(360deg); /* Une rotation complète (360 degrés) */
 }
-
-
-
-.rollingSun:hover{
-  color: rebeccapurple;
+}
+.rollingSun:hover {
+  color: #0000EE;
   animation: rotation 2s infinite linear;
 }
+
+
+.rollingSunContainer:hover {
+  animation: rotation 2s infinite linear;
+}
+
 
 .mainIndex{
   display: flex;
@@ -105,6 +116,7 @@
   font-weight: bold;
   color: var(--text-color);
   z-index: 9999;
+  
 }
 
 .download{
@@ -378,11 +390,14 @@
   text-align: center;
 }
 
+
+
 .footer{
   display: flex;
   flex-direction: row;
   padding: 40px;
   height: 60vh;
+  margin-bottom: 100px !important;
 }
 
 .footer h2{

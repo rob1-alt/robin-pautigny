@@ -9,6 +9,7 @@ import Portrait from '/public/seflPortrait.png'
 import { ScrollTrigger } from '../vendors/gsap/ScrollTrigger'
 import Head from 'next/head'
 import EtherPrice from '@/components/crypto'
+import CustomCursor from '@/components/CustomCursor';
 
 
 
@@ -77,6 +78,7 @@ function About(){
                     <link rel="icon" href="/favicon.png" />
                 </Head>
             <ContextualMenu/>
+            <CustomCursor/>
             <EtherPrice/>
             <Clock/>
             <div ref={textRef} className={styles.mainProject}>

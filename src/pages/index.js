@@ -2,13 +2,14 @@ import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
 import ContextualMenu from '../components/contextualMenu'
 import Clock from '../components/clock'
-import CustomCursor from '../components/cursor'
 import Footer from '../components/footer'
 import ProjectsListIndex from '@/components/projectListIndex'
 import { useState, useEffect } from 'react'
 import ProjectDB from '../utils/articles.json';
 import Loader from '../components/loader'
 import EtherPrice from '@/components/crypto'
+import CustomCursor from '@/components/CustomCursor';
+
 
 
 export default function Home() {
@@ -47,6 +48,7 @@ export default function Home() {
         <Clock/>
         <EtherPrice/>
         <Loader/>
+        <CustomCursor />
         <h1 className={styles.title}>FOLIO 20/24</h1>
       </main>
         <ProjectsListIndex projects={projects} />
