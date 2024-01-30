@@ -5,7 +5,6 @@ import Clock from "@/components/clock";
 import { gsap } from 'gsap';
 import { SplitText } from '../vendors/gsap/SplitText';
 import Image from "next/image";
-import Portrait from '/public/seflPortrait.png'
 import { ScrollTrigger } from '../vendors/gsap/ScrollTrigger'
 import Head from 'next/head'
 import EtherPrice from '@/components/crypto'
@@ -88,7 +87,7 @@ function About(){
                 <div className={styles.pictureFull}>
                     <span className={styles.firstName}>Robin</span>
                     <Image
-                        src="/seflPortrait.png"
+                        src="/selfPortrait2024.jpg"
                         width={1628}
                         height={2440}
                         alt="Picture of the author"
