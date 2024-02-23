@@ -120,6 +120,7 @@
 }
 
 .download{
+  padding-bottom: 150px;
   margin-top: 50px;
   display: flex;
   justify-content: center;
@@ -214,6 +215,7 @@
   margin: 40px;
   margin-top: 100px;
   height: 500px;
+
 }
 .summary span{
   font-family: 'Inter', sans-serif;

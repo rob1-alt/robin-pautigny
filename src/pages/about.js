@@ -87,7 +87,7 @@ function About(){
                 <div className={styles.pictureFull}>
                     <span className={styles.firstName}>Robin</span>
                     <Image
-                        src="/selfPortrait2024.jpg"
+                        src="/selfPortrait2024_1.jpg"
                         width={1628}
                         height={2440}
                         alt="Picture of the author"

@@ -1,17 +1,18 @@
 [
     {      
         "id" : 10,  
-        "slug": "/",
+        "slug": "ekoala",
         "title": "eKoala",
         "content" : {
             "title" : "eKoala",
-            "description" : "eKoala",
+            "description" : "ekoala is a junk removal service for flats, houses and offices that operates throughout Paris. The aim is to clean and give new life to the furniture and then resell it.",
             "content" : "eKoala",
             "link" : "https://www.ekoala-debarras.com/",
             "year" : "2024"
         },
         "images" : {
-            "thumbnail" : "/ekoala/moving.webp",
+            "thumbnail" : "/ekoala/",
+            "thumbnailVideo" : "/ekoala/ekoala-mp4.mp4",
             "ipadMockup" : "/overcop/test.png",
             "doubleIpadMockup" : "/overcop/ipad2mockup.png",
             "grid1" : "/overcop/grid-1.png",
