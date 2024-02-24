@@ -13,8 +13,8 @@
         "images" : {
             "thumbnail" : "/ekoala/",
             "thumbnailVideo" : "/ekoala/ekoala-mp4.mp4",
-            "ipadMockup" : "/overcop/test.png",
-            "doubleIpadMockup" : "/overcop/ipad2mockup.png",
+            "ipadMockup" :"" ,
+            "doubleIpadMockup" :"/ekoala/full.png",
             "grid1" : "/overcop/grid-1.png",
             "grid2" : "/overcop/grid-2.png",
             "grid3" : "/overcop/grid-3.png",
