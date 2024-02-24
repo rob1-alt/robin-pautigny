@@ -46,7 +46,7 @@ export default function Home() {
         <CustomCursor/>
         <ContextualMenu/>
         <Clock/>
-        <EtherPrice/>
+        {/* <EtherPrice/> */}
         <Loader/>
         <CustomCursor />
         <h1 className={styles.title}>FOLIO 20/24</h1>
