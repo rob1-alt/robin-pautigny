@@ -118,7 +118,7 @@ return (
                     <link rel="icon" href="/favicon.png" />
                 </Head>
     <ContextualMenu/>
-    <EtherPrice/>
+    {/* <EtherPrice/> */}
     <Clock/>
     <CustomCursor/>
     <div ref={textRef} className={styles.mainProject}>

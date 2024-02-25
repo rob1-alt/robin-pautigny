@@ -78,7 +78,7 @@ function About(){
                 </Head>
             <ContextualMenu/>
             <CustomCursor/>
-            <EtherPrice/>
+            {/* <EtherPrice/> */}
             <Clock/>
             <div ref={textRef} className={styles.mainProject}>
                 <h1 ref={splitTextRef} className={styles.aboutTitle} id="myText">ABOUT ME</h1>

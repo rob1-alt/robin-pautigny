@@ -62,7 +62,7 @@ function ProjectsList() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <ContextualMenu/>
-      <EtherPrice/>
+      {/* <EtherPrice/> */}
       <CustomCursor/>
       <Clock/>
     <div ref={textRef} className={styles.mainProject}>

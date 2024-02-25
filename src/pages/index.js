@@ -11,12 +11,10 @@ import EtherPrice from '@/components/crypto'
 import CustomCursor from '@/components/CustomCursor';
 
 
-
 export default function Home() {
-  // Assuming you have your projects data here
+
   const [projects, setProjects] = useState([]);
   const background = ProjectDB.background
-
   useEffect(() => {
     async function fetchData() {
       setProjects(ProjectDB);
