@@ -63,4 +63,61 @@
         "content": "Contenu de l'article 3",
         "slug": "MFO"
     }
+],
+[
+{
+    {      
+        "id" : 10,  
+        "slug": "ekoala",
+        "title": "eKoala",
+        "content" : {
+            "title" : "eKoala",
+            "description" : "ekoala is a junk removal service for flats, houses and offices that operates throughout Paris. The aim is to clean and give new life to the furniture and then resell it.",
+            "content" : "eKoala",
+            "link" : "https://www.ekoala-debarras.com/",
+            "year" : "2024"
+        },
+        "images" : {
+            "thumbnail" : "/ekoala/",
+            "thumbnailVideo" : "/ekoala/ekoala-mp4.mp4",
+            "ipadMockup" :"" ,
+            "doubleIpadMockup" :"/ekoala/full.png",
+            "grid1" : "/overcop/grid-1.png",
+            "grid2" : "/overcop/grid-2.png",
+            "grid3" : "/overcop/grid-3.png",
+            "grid4" : "/overcop/grid-4.png"
+        },
+        "tags" :{
+            "tag1" : "personal",
+            "tag2" : "business",
+            "tag3" : "webflow"
+    }
+    },
+},
+{      
+        "id" : 11,  
+        "slug": "/",
+        "title": "Sparkles",
+        "content" : {
+            "title" : "eKoala",
+            "description" : "eKoala",
+            "content" : "eKoala",
+            "link" : "https://www.overcop.com/",
+            "year" : "2023"
+        },
+        "images" : {
+            "thumbnail" : "/sparkles/bannerMain.png",
+            "ipadMockup" : "/overcop/test.png",
+            "doubleIpadMockup" : "/overcop/ipad2mockup.png",
+            "grid1" : "/overcop/grid-1.png",
+            "grid2" : "/overcop/grid-2.png",
+            "grid3" : "/overcop/grid-3.png",
+            "grid4" : "/overcop/grid-4.png"
+        },
+        "tags" :{
+            "tag1" : "personal",
+            "tag2" : "business",
+            "tag3" : "fullstack"
+    }
+    }
 ]
