@@ -16,7 +16,11 @@
     font-family: 'Inter', sans-serif;
     font-weight: bold;
   }
+
   
+  .summary{
+    font-family: 'Athletics', sans-serif !important;
+  }
   .menu{
     z-index: 9999;
     position: fixed;

@@ -22,6 +22,21 @@
   height: 70vh; 
 }
 
+.clock{
+  font-family: 'Athletics', sans-serif !important;
+}
+
+.summary{
+  font-family: 'Athletics', sans-serif !important;
+}
+
+@font-face {
+  font-family: "Athletics";
+  src: url('../Athletics\ Medium.otf');
+  font-weight: bold;
+  font-style: normal;
+}
+
 /* Home.module.css */
 
 .ether {
@@ -218,7 +233,7 @@
 
 }
 .summary span{
-  font-family: 'Inter', sans-serif;
+  font-family: 'Athletics', sans-serif;
   font-size: 1.2em;
   line-height: 120%;
 }
