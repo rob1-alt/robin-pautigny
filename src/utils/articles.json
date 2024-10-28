@@ -118,7 +118,7 @@
     },
     "images" : {
         "thumbnail" : "/g-speed/main.jpg",
-        "ipadMockup" : "/g-speed/ipad-g-speed.png",
+        "ipadMockup" : "/g-speed/03-Site.png",
         "doubleIpadMockup" : "/g-speed/double-g-speed.png",
         "grid1" : "/g-speed/profile.jpg",
         "grid2" : "/g-speed/g-speed-2.png",
@@ -144,7 +144,7 @@
         },
         "images" : {
             "thumbnail" : "/mfo/mfoFull.jpeg",
-            "ipadMockup" : "/mfo/IpadMockup.png",
+            "ipadMockup" : "/mfo/03-Site.png",
             "doubleIpadMockup" : "/mfo/Ipads.png",
             "grid1" : "/mfo/grid-1-mfo.png",
             "grid2" : "/mfo/grid-mfo-3.png",
