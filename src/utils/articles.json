@@ -4,16 +4,16 @@
 {   
     "id" : 2,  
     "slug": "",
-    "title": "Sparkles",
+    "title": "Muse",
     "content" : {
-        "title" : "Sparkles",
+        "title" : "Muse",
         "description" : "4L trophy raid, all the picture are from the previous raid of the 4L. Coming soon to have us in the next raid.",
         "content" : "corse matin",
         "link" : "https://theturbros.fr",
         "year" : "∞"
     },
     "images" : {
-        "thumbnail" : "/sparkles/XBANNER.png",
+        "thumbnail" : "/corse-matin/hills.jpg",
         "ipadMockup" : "/4l/thumbnail.JPG",
         "doubleIpadMockup" : "/4l/03-Site.png",
         "grid1" : "/4l/start.JPG",
