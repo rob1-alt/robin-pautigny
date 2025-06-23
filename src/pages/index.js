@@ -47,7 +47,7 @@ export default function Home() {
         {/* <EtherPrice/> */}
         <Loader/>
         <CustomCursor />
-        <h1 className={styles.title}>FOLIO 20/24</h1>
+        <h1 className={styles.title}>FOLIO 20/25</h1>
       </main>
         <ProjectsListIndex projects={projects} />
       <Footer/>

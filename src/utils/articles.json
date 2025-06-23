@@ -36,16 +36,16 @@
         "description" : "4L trophy raid, all the picture are from the previous raid of the 4L. Coming soon to have us in the next raid.",
         "content" : "corse matin",
         "link" : "https://theturbros.fr",
-        "year" : "2024"
+        "year" : "2025"
     },
     "images" : {
-        "thumbnail" : "/4l/thumbnail.JPG",
-        "ipadMockup" : "/4l/thumbnail.JPG",
+        "thumbnail" : "/4l/70930260.JPG",
+        "ipadMockup" : "/4l/70930260.JPG",
         "doubleIpadMockup" : "/4l/03-Site.png",
-        "grid1" : "/4l/start.JPG",
-        "grid2" : "/4l/land.JPG",
-        "grid3" : "/4l/desert.JPG",
-        "grid4" : "/4l/city.JPG"
+        "grid1" : "/4l/70939769.JPG",
+        "grid2" : "/4l/71009686.JPG",
+        "grid3" : "/4l/70988666.JPG",
+        "grid4" : "/4l/70951644.JPG "
     },
     "tags" :{
         "tag1" : "personal",
