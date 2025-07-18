@@ -11,7 +11,7 @@
 }
 
 .title{
-  font-family: "Thunder";
+  font-family: "Thunder bold";
   font-size: 20vw;
 }
 
@@ -145,7 +145,7 @@
 }
 
 .workTitle{
-  font-family: "Thunder";
+  font-family: "Thunder bold";
   text-transform: uppercase;
   font-size: 20vw;
 }
@@ -161,7 +161,7 @@
 
 
 .aboutTitle{
-  font-family: "Thunder";
+  font-family: "Thunder bold";
   text-transform: uppercase;
   font-size: 20vw;
 }
@@ -239,7 +239,7 @@
 }
 
 .summary h2{
-  font-family: "Thunder Bold";
+  font-family: "Thunder bold";
   font-size: 6vw;
   text-transform: uppercase;
   text-decoration: underline;
@@ -260,7 +260,7 @@
 }
 
 .firstName{
-  font-family: "Thunder";
+  font-family: "Thunder bold";
   font-size: 12vw;
   text-transform: uppercase;
   margin-left: -40vw ;
@@ -269,7 +269,7 @@
 }
 
 .lastName{
-  font-family: "Thunder";
+  font-family: "Thunder bold";
   font-size: 12vw;
   text-transform: uppercase;
   margin-right: -55vw ;
@@ -419,7 +419,7 @@
 
 .footer h2{
   font-size: 12vw;
-  font-family: 'Thunder Bold';
+  font-family: 'Thunder bold';
   text-transform: uppercase;
 }
 
